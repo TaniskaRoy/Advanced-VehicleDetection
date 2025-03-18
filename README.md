@@ -6,7 +6,6 @@ Arrange the data by creating 2 subfolders in the `data` folder, named `images` a
 
 
 
- **AVD-Dataset**: Utilized the AVD-Dataset, consisting of 3,200 annotated vehicle images in YOLO format across 15 classes, with 2,600 images for training and 200 for validation.
   
 **Model Implementation**:
   - **YOLOv10x**: Implemented the YOLOv10x model, achieving an **mAP@50** score of **0.598**, an **F1 score** of **0.60**, and a **Precision** of **0.70** for both training and validation datasets.

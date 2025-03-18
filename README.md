@@ -33,9 +33,3 @@ Ensure you have the following packages installed:
 
 ```bash
 pip install torch torchvision timm ultralytics
-
-
-
-
-
-

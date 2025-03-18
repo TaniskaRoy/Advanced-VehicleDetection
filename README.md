@@ -21,3 +21,21 @@ Ensure you have the following packages installed:
 
 ```bash
 pip install torch torchvision timm ultralytics
+
+
+
+
+
+
+Developed an object detection system using **YOLOv10** to detect vehicles in various weather conditions.
+
+ **AVD-Dataset**: Utilized the AVD-Dataset, consisting of 3,200 annotated vehicle images in YOLO format across 15 classes, with 2,600 images for training and 200 for validation.
+  
+**Model Implementation**:
+  - **YOLOv10x**: Implemented the YOLOv10x model, achieving an **mAP@50** score of **0.598**, an **F1 score** of **0.60**, and a **Precision** of **0.70** for both training and validation datasets.
+  - **YOLOv10n & Earlier Versions**: Conducted experiments with **YOLOv10n** and previous versions, resulting in an **mAP@50** score of **0.49**.
+  - **YOLOv10m**: Implemented the **YOLOv10m** model with medium-weight backbones, achieving an **mAP@50** score of **0.53**.
+  - **MobileNetV2**: Also tested **MobileNetV2**, which achieved an **mAP@50** score of **0.51**, an **F1 score** of **0.55**, and **Precision** of **0.67**.
+  
+**Recognition**: Secured **first runner-up** position in the **Jadavpur University Hackathon 2024** for this object detection system.
+
